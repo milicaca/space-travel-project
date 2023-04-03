@@ -44,6 +44,11 @@ a{
     color:#ffffff;
     padding: 30px 0;
 }
+
+a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
 .active {
     border-bottom: 2px solid #ffffff; 
     

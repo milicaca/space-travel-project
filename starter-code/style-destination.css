@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/destination/background-destination-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*******************    NAVIGATION  *****************/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+
+}
+
+hr {
+    flex-grow: 1;
+    height: 0;
+    opacity: 0.3;
+    position: relative;
+    left: 40px;
+    z-index: 1;
+}
+
+ul{
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.blur {
+width: 55%;
+background-color: #3c3c3c5e ;
+backdrop-filter: blur(5px);
+height: 85px;
+align-items: center;
+display: flex;
+}
+a{
+    text-decoration: none;
+    color:#ffffff;
+    padding: 30px 0;
+}
+a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+.active {
+    border-bottom: 2px solid #ffffff;
+
+}
+li{
+
+    padding: 0 30px;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+
+}
+li .hidden{
+    visibility: hidden;
+}
+/*******************    NAVIGATION  *****************/
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #fffffff4;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 4.75px;
+    
+
+}
+.left h1{
+    padding:30px 0;
+}
+span{
+    color:#4e5058;
+}
+
+img{
+   display: inherit;
+
+}
+.right{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: end;
+
+}
+.planets li{
+
+    padding:0 40px 0 0;
+    font-size: 20px;
+}
+ #mars, #europa, #titan{
+      color: #d0d6f9;
+}
+.planet-active{
+    border-bottom: 3px solid #ffffff;
+    
+}
+
+.right h1{
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: lighter;
+    font-family: 'Bellefair Regular', serif;
+    letter-spacing: 8px;
+}
+p{
+    color: #d0d6f9;
+    font-family: 'Barlow', sans-serif;
+
+    line-height: 2;
+    font-size: 18px;
+}
+.hr{
+    position: relative;
+    left: 0px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom h3{
+       font-size: 14px;
+       letter-spacing: 2.75px;
+       font-family: 'Barlow Condensed', serif;
+       text-transform: uppercase;
+       color: #d0d6f9;
+       font-weight: 400;
+      margin-bottom: 0;
+}
+.bottom p{
+    color: #ffffff;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+}
