@@ -36,23 +36,23 @@
   <div class="container">
     <div class="left">
       <h1><span>01</span> Pick your destination</h1>
-      <img class="planet-img" src="assets/destination/image-moon.webp" alt="moon">
+      <img id="planet-img" src="assets/destination/image-moon.webp" alt="moon">
     </div>
 
 
     <div class="right">
 
-      <ul class="planets">
+      <ul id="planet-links" class="planets">
 
-        <li><a href="#" id="moon" class="planet-active">Moon</a></li>
-        <li> <a href="#" id="mars" onclick="changeImg()">Mars</a></li>
-        <li> <a href="#" id="europa">Europa</a> </li>
-        <li> <a href="#" id="titan">Titan</a> </li>
+        <li><a href="#" id="moon" class="planet-active" onclick="changeMoon()">Moon</a></li>
+        <li> <a href="#" id="mars" class="planet" onclick="changeMars()">Mars</a></li>
+        <li> <a href="#" id="europa" class="planet" onclick="changeEuropa()">Europa</a> </li>
+        <li> <a href="#" id="titan" class="planet" onclick="changeTitan()">Titan</a> </li>
       </ul>
 
-      <h1>Moon</h1>
+      <h1 id="planet-heading">Moon</h1>
 
-      <p id="message" onclick="changeMsg()">See our planet as you’ve never seen it before. A perfect <br> relaxing
+      <p id="message">See our planet as you’ve never seen it before. A perfect <br> relaxing
         trip away to help
         regain perspective and come <br> back refreshed. While you’re there, take in some history <br>
         by visiting the Luna 2 and Apollo 11 landing sites.</p>
@@ -62,11 +62,11 @@
       <div class="bottom">
         <div class="bottom-right">
           <h3>Avg. distance</h3>
-          <p>384,400 km</p>
+          <p id="kilometers">384,400 km</p>
         </div>
         <div class="bottom-left">
           <h3>Est. travel time</h3>
-          <p>3 days</p>
+          <p id="travel-time">3 days</p>
         </div>
       </div>
     </div>

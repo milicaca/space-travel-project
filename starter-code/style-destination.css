@@ -47,7 +47,9 @@ a{
 }
 a:hover{
     border-bottom: 2px solid #ffffff;
+
 }
+
 .active {
     border-bottom: 2px solid #ffffff;
 
@@ -77,7 +79,7 @@ li .hidden{
     color: #fffffff4;
     font-family: 'Barlow Condensed', sans-serif;
     letter-spacing: 4.75px;
-    
+
 
 }
 .left h1{
@@ -87,10 +89,6 @@ span{
     color:#4e5058;
 }
 
-img{
-   display: inherit;
-
-}
 .right{
     color: #ffffff;
     display: flex;
@@ -104,12 +102,12 @@ img{
     padding:0 40px 0 0;
     font-size: 20px;
 }
- #mars, #europa, #titan{
+ #moon, #mars, #europa, #titan{
       color: #d0d6f9;
 }
 .planet-active{
     border-bottom: 3px solid #ffffff;
-    
+
 }
 
 .right h1{

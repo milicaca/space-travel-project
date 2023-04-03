@@ -39,6 +39,7 @@ height: 85px;
 align-items: center;
 display: flex;
 }
+
 a{
     text-decoration: none;
     color:#ffffff;
@@ -101,7 +102,7 @@ p{
 }
 
 .btn{
-  
+font-size: 32px;
     text-transform: uppercase;
     font-family: 'Bellefair Regular', sans-serif;
     letter-spacing: 5px;
@@ -112,7 +113,8 @@ p{
 }
 .btn-link{
     color:#0b0d17;
-    font-size: 32px ;
+    
+    
     
 }
 .btn:hover{
