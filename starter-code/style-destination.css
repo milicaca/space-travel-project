@@ -5,6 +5,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 /*******************    NAVIGATION  *****************/
@@ -13,6 +14,7 @@ nav{
     justify-content: space-between;
     padding: 50px;
     align-items: center;
+    width: 100%;
 
 }
 
@@ -67,6 +69,8 @@ li .hidden{
     visibility: hidden;
 }
 /*******************    NAVIGATION  *****************/
+
+/* destination*/
 .container{
     display: flex;
     flex-direction: row;

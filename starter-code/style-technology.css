@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/technology/background-technology-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/*******************    NAVIGATION  *****************/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    width: 100%;
+
+}
+
+hr {
+    flex-grow: 1;
+    height: 0;
+    opacity: 0.3;
+    position: relative;
+    left: 40px;
+    z-index: 1;
+}
+
+ul{
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.blur {
+width: 55%;
+background-color: #3c3c3c5e ;
+backdrop-filter: blur(5px);
+height: 85px;
+align-items: center;
+display: flex;
+}
+a{
+    text-decoration: none;
+    color:#ffffff;
+    padding: 30px 0;
+}
+a:hover{
+    border-bottom: 2px solid #ffffff;
+
+}
+
+.active-nav {
+    border-bottom: 2px solid #ffffff;
+
+}
+li{
+
+    padding: 0 30px;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+
+}
+li .hidden{
+    visibility: hidden;
+}
+/* technology */
+.container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.left-top{
+display: flex;
+color: #ffffff;
+font-family: 'Barlow Condensed', serif;
+text-transform: uppercase;
+letter-spacing: 4.75px;
+margin: 0 0 30px 60px;
+}
+
+span{
+    color:#4e5058;
+}
+
+.left-bot{
+    display: flex;
+    flex-direction: row;
+}
+.space-launch{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.space{
+    border: 1px solid #4e5058;
+    color: #ffffff;
+    padding: 25px 35px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin:10px 50px;
+    cursor: pointer;
+
+}
+.space:hover{
+    cursor: pointer;
+    border: 1px solid #ffffff;
+}
+
+.left-bot-right h4{
+color: #d0d6f9;
+text-transform: uppercase;
+font-family: 'Barlow Condensed', sans-serif;
+letter-spacing: 2.7px;
+font-size: 16px;
+margin: 8px;
+}
+.left-bot-right h1{
+    color: #ffffff;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 56px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+}
+.description {
+ font-family: 'Barlow', sans-serif;
+ color: #d0d6f9;
+ line-height: 32px;
+}
+.active {
+    background-color: #ffffff;
+    color: #0b0d17;
+    border: 1px solid #4e5058;
+    padding: 25px 35px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin:10px 50px;
+}

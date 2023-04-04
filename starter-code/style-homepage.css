@@ -5,13 +5,14 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 nav{
     display: flex;
     justify-content: space-between;
     padding: 50px;
     align-items: center;
-    
+    width: 100%;
 }
 
 hr {

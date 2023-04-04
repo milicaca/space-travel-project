@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/crew/background-crew-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/*******************    NAVIGATION  *****************/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    width: 100%;
+
+}
+
+hr {
+    flex-grow: 1;
+    height: 0;
+    opacity: 0.3;
+    position: relative;
+    left: 40px;
+    z-index: 1;
+}
+
+ul{
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.blur {
+width: 55%;
+background-color: #3c3c3c5e ;
+backdrop-filter: blur(5px);
+height: 85px;
+align-items: center;
+display: flex;
+}
+a{
+    text-decoration: none;
+    color:#ffffff;
+    padding: 30px 0;
+}
+a:hover{
+    border-bottom: 2px solid #ffffff;
+
+}
+
+.active-nav {
+    border-bottom: 2px solid #ffffff;
+
+}
+li{
+
+    padding: 0 30px;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+
+}
+li .hidden{
+    visibility: hidden;
+}
+
+/* CREW */
+.container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    color: #fffffff4;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 4.75px;
+    
+   
+    
+}
+.left h1{
+    text-transform: uppercase;
+    
+}
+span{
+    color:#4e5058;
+}
+.left-bottom h2{
+text-transform: uppercase;
+color: #ffffff94;
+font-family: 'Bellefair Regular', serif;
+font-weight: 400;
+font-size: 38px;
+letter-spacing: 3.5px;
+}
+.left-bottom h1{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Bellefair Regular', serif;
+    font-weight: 400;
+    font-size: 58px;
+    letter-spacing: 3.5px;
+}
+
+.description{
+    font-size: 14px;
+       letter-spacing: 2.75px;
+       font-family: 'Barlow Regular', sans-serif;
+       line-height:1.7;
+       color: #d0d6f9;
+       font-weight: 400;
+      margin-bottom: 0;
+}
+
+
+.slider{
+    display: flex;
+    justify-content: start;
+    padding: 30px 0;
+}
+.button{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #63656c;
+    border-radius: 50%;
+    margin-right: 30px;
+    cursor: pointer;
+  
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #919296;
+
+}
+
+.active{
+    cursor: pointer;
+    background-color:#ffffff;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
