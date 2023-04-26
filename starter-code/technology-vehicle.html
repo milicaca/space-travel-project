@@ -40,30 +40,33 @@
 
 
     <div class="left">
-      <div class="left-top">
-        <h1><span>03</span> Space launch 101</h1>
-      </div>
-      <div class="left-bot">
-
-        <div class="space-launch" id="space-slider">
-          <div id="launch" class="space active" onclick="launch()">1</div>
-          <div id="spaceport" class="space" onclick="spaceport()">2</div>
-          <div id="capsule" class="space" onclick="capsule()">3</div>
+      <div class="fixed">
+        <div class="left-top">
+          <h1><span>03</span> Space launch 101</h1>
         </div>
+        <div class="left-bot">
 
-        <div class="left-bot-right">
-          <h4>The terminology...</h4>
-          <h1 id="space-name">Launch vehicle</h1>
-          <p class="description" id="space-info">A launch vehicle or carrier rocket is a rocket-propelled <br> vehicle
-            used to carry a
-            payload from Earth's surface to <br> space, usually to Earth orbit or beyond. Our
-            WEB-X <br> carrier rocket is the most powerful in operation. Standing <br> 150 metres tall,
-            it's quite an awe-inspiring sight on the <br> launch pad!</p>
+          <div class="space-launch" id="space-slider">
+            <div id="launch" class="space active" onclick="launch()">1</div>
+            <div id="spaceport" class="space" onclick="spaceport()">2</div>
+            <div id="capsule" class="space" onclick="capsule()">3</div>
+          </div>
+
+          <div class="left-bot-right">
+            <h4>The terminology...</h4>
+            <h1 id="space-name">Launch vehicle</h1>
+            <p class="description" id="space-info">A launch vehicle or carrier rocket is a rocket-propelled <br> vehicle
+              used to carry a
+              payload from Earth's surface to <br> space, usually to Earth orbit or beyond. Our
+              WEB-X <br> carrier rocket is the most powerful in operation. Standing <br> 150 metres tall,
+              it's quite an awe-inspiring sight on the <br> launch pad!</p>
+          </div>
         </div>
       </div>
     </div>
     <div class="right">
-      <img src="assets/technology/image-launch-vehicle-portrait.jpg" alt="" id="tech-pic">
+      <img src="assets/technology/image-launch-vehicle-portrait.jpg" alt="" id="tech-pic" class="portrait">
+      <!-- <img src="assets/technology/image-launch-vehicle-landscape.jpg" alt="" id="tech-pic" class="landscape"> -->
     </div>
   </div>
   <script src="technology.js"></script>

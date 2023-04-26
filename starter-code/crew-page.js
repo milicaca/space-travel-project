@@ -28,7 +28,7 @@ function victor() {
 document.getElementById("crew-pic").src = "assets/crew/image-victor-glover.webp";
 document.getElementById("crew-function").innerText = "PILOT"; 
     document.getElementById("crew-name").innerHTML = "VICTOR GLOVER"
-    document.getElementById("crew-description").innerHTML= "Pilot on the first operational flight of the SpaceX Crew <br> Dragon to the International Space Station. Glover is a <br> commander in the U.S. Navy where he pilots an F/A-18.He <br> was a crew member of Expedition 64, and served as a <br> station systems flight engineer. ";
+    document.getElementById("crew-description").innerHTML= "Pilot on the first operational flight of the SpaceX Crew Dragon <br> to the International Space Station. Glover is a commander in the <br> U.S. Navy where he pilots an F/A-18.He was a crew member of <br> Expedition 64, and served as a station systems flight engineer. ";
  
 }
 
