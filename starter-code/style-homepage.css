@@ -66,6 +66,19 @@ li {
 li:nth-child(1) {
   visibility: hidden;
 }
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
 .content {
   display: flex;
   justify-content: space-between;
@@ -148,5 +161,33 @@ p {
   }
   .btn {
     margin-top: 80px;
+  }
+}
+/* MOBILE */
+@media (max-width: 768px) {
+  nav {
+    padding: auto 0;
+  }
+  .hamburger {
+    display: block;
+    margin-right: 50px;
+  }
+  .navLinks {
+    position: fixed;
+    left: -150%;
+    top: 80px;
+    flex-direction: column;
+    width: 100%;
+    text-align: right;
+    transition: 0.3s ease;
+  }
+  .navLinks li {
+    margin-top: 10px;
+  }
+  a {
+    padding: 0;
+  }
+  .navLinks.open {
+    left: 0;
   }
 }
